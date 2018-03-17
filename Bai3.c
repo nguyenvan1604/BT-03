@@ -7,7 +7,7 @@ int _(int *p,int n, int k)
         k++;
     if(n == 1)
         return k;
-    _(p+1,n-1,k);
+    return _(p+1,n-1,k);
 }
 
 int main()

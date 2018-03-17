@@ -3,14 +3,10 @@
 int _(int n)
 {
     if(n/10 == 0)
-    {
         return n%10;
-    }
     int k = _(n/10);
     if(k < n%10)
-    {
         return n%10;
-    }
     return k;
 }
 

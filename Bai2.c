@@ -8,7 +8,6 @@ int _(int n)
     if(k < n%10)
         return n%10;
     return k;
-}
 
 int main()
 {

@@ -10,6 +10,7 @@ float f(int n)
         return 0;
     return f(n-1) + f(n-2) + 4/5;
 }
+
 int main()
 {
     int n;
